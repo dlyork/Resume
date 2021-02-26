@@ -1,0 +1,23 @@
+section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3
+education,TRUE,"M.S., Student, Program Evaluation and Data Analytics",Arizona State University,Online,2020,Current,Working on R programming and program evaluations,NA,
+education,TRUE,"B.A., Mathematics (minor Bible and Theology)",William Jessup University,"Rocklin, CA",2016,2020,Project: The Physics of Weeble Wobbles,NA,
+industry_positions,TRUE,SQL Intern,Calpro Research,"Rocklin, CA",2020,2020,Translated Microsoft SQL Server into MySQL,Developed code to help interpret survey data,Researched best SQL methods
+industry_positions,TRUE,Data Coordinator Assistant,William Jessup University,"Rocklin, CA",2017,2020,Assisted database coordinator with Salesforce data entry,Trained other employees and led team,"Helped assist with alumni, events, donations, and church relations"
+industry_positions,TRUE,Advancement Services Data Coordinator,William Jessup University,"Rocklin, CA",2020,Current,Create and manage reports on University donors and develop Salesforce procedures,Maintain confidentiality and accuracy of Salesforce data,Provide data regarding University events: Gala and Westfall Gold
+industry_positions,TRUE,Cashier and Server,Mountain Mikes Pizza,"Lincoln, CA",2016,2017,Took orders over the phone and counter,Cashiered and reconciled cash drawer,Prepared and served food
+certificates,TRUE,IRB Social & Behavioral Research Ethics Certificate,Citiprogram.org,NA,2020,2024,Training in social and behavior research with a focus in human subjects,NA,
+certificates,TRUE,Salesforce Platform Developer,Salesforce.com,NA,2020,In-Progress,Training in developing apps and Apex in a Salesforce environment,NA,
+certificates,TRUE,Ed Harris Memorial Scholarship 2019 Winner,William Jessup University,NA,2019,2020,NA,,
+certificates,TRUE,William Jessup Presidential Academic Scholarship,William Jessup University,NA,2016,2020,NA,,
+certificates,TRUE,William Jessup Legacy Scholarship,William Jessup University,NA,2016,2020,NA,,
+certificates,TRUE,"Summa Cum Laude, William Jessup University, GPA 3.9",William Jessup University,NA,2016,2020,NA,,
+volunteer,TRUE,Course Trail Guide,3Strands Global,"Folsom, CA",2016,2016,Guided participants through 5k,NA,
+volunteer,TRUE,Organizer,St. Vincent de Paul Food Locker,"Roseville, CA",2019,2019,Organized meal kits,NA,
+volunteer,TRUE,Donation Manager,William Jessup University,"Rocklin, CA",2017,2019,Recorded donations made at annual galas,NA,
+projects,TRUE,Work Sessions in Salesforce,William Jessup University,"Rocklin, CA",NA,2021,Created object that measures intern productivity,NA,
+projects,TRUE,Code-Through: Plotly,Arizona State University,NA,NA,2020,Description and example of how to use Plotly,NA,
+projects,TRUE,Code-Through: Corrplot,Arizona State University,NA,NA,2020,Description and example of how to use Corrplot,NA,
+projects,TRUE,DonorSearch and Salesforce Integration,William Jessup University,"Rocklin, CA",NA,2020,"Created 26,000 wealth screening profiles to locate major donors",NA,
+projects,TRUE,Salesforce Tutorials,William Jessup University,"Rocklin, CA",NA,2020,Created articles on how to use Salesforce ,NA,
+projects,TRUE,Gift Officer Dashboards,William Jessup University,"Rocklin, CA",NA,2020,Created dashboard to reflect donation officer performance,NA,
+projects,TRUE,Python Arcade Game,William Jessup University,"Rocklin, CA",NA,2017,Used Python to create a small game that demonstrates  Pygame,,
