@@ -27,17 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-#position_data <- read_csv('positions.csv')
-position_data <- read_csv('positions.csv') %>% 
-  filter(in_resume) %>% 
-  mutate(
-    # Build some custom sections by collapsing others
-    section = case_when(
-      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
-      section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
-      TRUE ~ section
-    )
-  ) 
+position_data <- read_csv('positions.csv')
 ```
 
 
@@ -75,7 +65,9 @@ Contact {#contact}
 
 - <i class="fa fa-envelope"></i> dlyork1@asu.edu
 - <i class="fa fa-github"></i> github.com/dlyork
-- <i class="fa fa-linkedin"></i> linkedin.com/in/diana-y-53a5061b9/
+- <i class="fa fa-linkedin"></i> linkedin.com/in/diana-y-53a5061b9
+
+
 
 
 Language Skills {#skills}
@@ -129,7 +121,7 @@ Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('education')
+print_section(position_data, 'education')
 ```
 
 
@@ -137,32 +129,44 @@ position_data %>% print_section('education')
 Selected Positions {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+
 ```{r}
-position_data %>% print_section('positions')
+print_section(position_data, 'industry_positions')
 ```
+
+
 
 Certificates and Achievements {data-icon=award}
 --------------------------------------------------------------------------------
 
+::: aside
+I enjoy learning new things and eager to pick up new skills.
+
+:::
 
 ```{r}
-position_data %>% print_section('certificates')
+print_section(position_data, 'certificates')
 ```
+
 
 Volunteer and Community Service {data-icon=hand-holding}
 --------------------------------------------------------------------------------
 
+::: aside
+I am very passionate about volunteering, and it is very rewarding to see the differences that you can make.
 
+:::
 ```{r}
-position_data %>% print_section('volunteer')
+print_section(position_data, 'volunteer')
 ```
+
 
 Projects {data-icon=project-diagram}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-position_data %>% print_section('projects')
+print_section(position_data, 'projects')
 ```
 
 
