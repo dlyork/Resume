@@ -68,7 +68,7 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  3,
-  "SQL",                2.5,
+  "SQL",                3,
   "Python",             1.5,
   "Apex",               1.5
 )
