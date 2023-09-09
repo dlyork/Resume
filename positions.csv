@@ -1,9 +1,10 @@
 section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3
 education,TRUE,"M.S., Student, Program Evaluation and Data Analytics",Arizona State University,Online,2020,Current,Working on R programming and program evaluations,NA,
 education,TRUE,"B.A., Mathematics (minor Bible and Theology)",William Jessup University,"Rocklin, CA",2016,2020,Project: The Physics of Weeble Wobbles,NA,
+industry_positions,TRUE,Data Management Specialist,City of Roseville,"Roseville, CA",2021,Current,Maintain Advanced Metering Infrastruture systems to ensure data accuracy and integrity, Create and manage reports on metering data, Create and manage database scripts
 industry_positions,TRUE,SQL Intern,Calpro Research,"Rocklin, CA",2020,2020,Translated Microsoft SQL Server into MySQL,Developed code to help interpret survey data,Researched best SQL methods
 industry_positions,TRUE,Data Coordinator Assistant,William Jessup University,"Rocklin, CA",2017,2020,Assisted database coordinator with Salesforce data entry,Trained other employees and led team,"Helped assist with alumni, events, donations, and church relations"
-industry_positions,TRUE,Advancement Services Data Coordinator,William Jessup University,"Rocklin, CA",2020,Current,Create and manage reports on University donors and develop Salesforce procedures,Maintain confidentiality and accuracy of Salesforce data,Provide data regarding University events: Gala and Westfall Gold
+industry_positions,TRUE,Advancement Services Data Coordinator,William Jessup University,"Rocklin, CA",2020,2021,Create and manage reports on University donors and develop Salesforce procedures,Maintain confidentiality and accuracy of Salesforce data,Provide data regarding University events: Gala and Westfall Gold
 industry_positions,TRUE,Cashier and Server,Mountain Mikes Pizza,"Lincoln, CA",2016,2017,Took orders over the phone and counter,Cashiered and reconciled cash drawer,Prepared and served food
 certificates,TRUE,IRB Social & Behavioral Research Ethics Certificate,Citiprogram.org,NA,2020,2024,Training in social and behavior research with a focus in human subjects,NA,
 certificates,TRUE,Salesforce Platform Developer,Salesforce.com,NA,2020,In-Progress,Training in developing apps and Apex in a Salesforce environment,NA,
